@@ -1,6 +1,6 @@
 /*!
 =========================================================
-* Meyawo Landing page
+* Marcel Landing page
 =========================================================
 
 * Copyright: 2019 DevCRUD (https://devcrud.com)
@@ -36,3 +36,10 @@ $('#nav-toggle').click(function(){
     $(this).toggleClass('is-active')
     $('ul.nav').toggleClass('show');
 });
+
+// go to portfolio
+function goToPortfolio() {
+    document.getElementById('portfolio').scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
